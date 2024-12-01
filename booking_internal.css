@@ -1,0 +1,62 @@
+        <style>   
+           form{
+                padding: 0;
+                box-shadow: none;
+                margin:4px 0;
+                width: auto;
+                height: auto;                
+            }
+            /*
+            *{font-size: 110%;
+                color: #c4cdff;
+            }*/
+        
+            body{
+                background-image: linear-gradient(45deg, #862be2, blue, #862be2);
+            }
+         
+            #Frm{width: 80%; height: auto;
+            background-color: transparent;
+            box-shadow: 0px 0px 15px 3px;
+            padding: 10px;margin: auto;
+            }
+            
+            #Frm{
+                display: grid;
+                grid-template-areas: "ID CF CS CN TN DoA De";
+                
+                grid-template-columns: 1fr repeat(5,2fr) 1fr;
+                grid-template-rows: 1.35fr 1fr; /*Only takes true effect when div#Frm is full*/
+                
+                grid-gap: 2px 0px; /*rows / col*/
+                grid-auto-flow: row;
+            }
+            
+            #Frm div{border: 1px dashed orange; padding-left: 5px;}
+            
+            /*
+            .TH{
+                text-shadow: 2px 2px 10px;
+                text-decoration: underline;
+            }*/
+            
+            /*
+            .But{
+                background-color: transparent;
+                margin-top: 4px;
+            }
+            .But:hover{
+                filter: sepia();
+            }
+            
+            input{
+                background-color: transparent;
+            }
+            input:not(.But):focus{
+                color:#c4cdff;
+                border: none;
+                box-shadow: 2px 2px 10px 5px #c4cdff;
+            }
+
+            */
+        </style>
